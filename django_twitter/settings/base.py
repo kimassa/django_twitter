@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'tweetme.urls'
+ROOT_URLCONF = 'django_twitter.urls'
 
 TEMPLATES = [
     {
@@ -55,7 +55,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tweetme.wsgi.application'
+WSGI_APPLICATION = 'django_twitter.wsgi.application'
 
 
 # Database
@@ -106,4 +106,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-Contact GitHub API Training Shop Blog About
+# Contact GitHub API Training Shop Blog About
