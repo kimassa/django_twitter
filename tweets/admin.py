@@ -1,4 +1,7 @@
+
 from django.contrib import admin
+
+# Register your models here.
 from .forms import TweetModelForm
 from .models import Tweet
 
@@ -7,9 +10,9 @@ from .models import Tweet
 
 
 class TweetModelAdmin(admin.ModelAdmin):
-    form = TweetModelForm
-    # class Meta:
-    #     model = Tweet
+    #form = TweetModelForm
+    class Meta:
+        model = Tweet
 
 
 
